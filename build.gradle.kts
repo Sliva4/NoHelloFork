@@ -38,8 +38,8 @@ val gitCommitHash = "git rev-parse --verify --short HEAD".execute()
 
 // also the soname
 val moduleId by extra("zygisk_nohello")
-val moduleName by extra("Nohello")
-val verName by extra("v0.0.7")
+val moduleName by extra("NoHelloFork")
+val verName by extra("v0.0.1")
 val verCode by extra(gitCommitCount)
 val commitHash by extra(gitCommitHash)
 val abiList by extra(listOf("arm64-v8a", "armeabi-v7a", "x86", "x86_64"))
