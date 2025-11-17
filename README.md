@@ -28,21 +28,19 @@ Using the **release** build is recommended over the debug build. Only use debug 
 ## Usage
 
 ### KernelSU & KernelSU Next users:
-1. Install ZygiskNext or ReZygisk.
+1. Install NeoZygisk or ReZygisk.
 2. Make sure the unmount setting is enabled for the target app in the Manager.
-3. Disable Umount modules in settings for Manager (if exists).
-4. Disable `Enforce DenyList` in ZygiskNext/ReZygisk settings if there is one.
+3. Disable Umount modules in settings for Manager (if exists)..
 
 ### APatch users:
-1. Install ZygiskNext or ReZygisk.
+1. Install NeoZygisk or ReZygisk.
 2. Make sure the unmount setting is enabled for the target app in the Manager.
-3. Disable `Enforce DenyList` in ZygiskNext/ReZygisk settings if there is one.
+3. Disable `Enforce DenyList` in NeoZygisk/ReZygisk settings if there is one.
 
 ### Magisk users:
 1. Update your Magisk to 28.0 or newer for better hiding capabilities. (optional)
-2. Turn on Zygisk in Magisk settings (unrecommended) or install ZygiskNext/ReZygisk.
+2. Turn on Zygisk in Magisk settings (unrecommended) or install NeoZygisk/ReZygisk.
 3. Turn off `Enforce DenyList` in Magisk settings.
-4. Disable `Enforce DenyList` in ZygiskNext/ReZygisk settings if there is one. (if installed)
 5. Add the target app to the deny list unless you're using a Magisk fork with a white list instead.
 
 ## Whitelisting (0.0.4+)

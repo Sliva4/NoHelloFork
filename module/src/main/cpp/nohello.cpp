@@ -632,7 +632,7 @@ static void NoRoot(int fd) {
 
 	if (result == SUCCESS) {
 		successRate++;
-		pm.setProp("description", "[" + emoji::emojize(":yum: ") + "Nohello unmounted " +
+		pm.setProp("description", "[" + emoji::emojize(":ghost: ") + "NoHelloFork unmounted " +
 								  std::to_string(successRate) + " time(s)] " + description);
 	} else if (result == FAILURE) {
 		if (write(fd, &result, sizeof(result)) != sizeof(result)) {
